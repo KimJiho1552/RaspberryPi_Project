@@ -1,0 +1,22 @@
+../Core/Src/Adafruit_TCS34725.cpp:44:7:float powf(float, float)	24	static
+../Core/Src/Adafruit_TCS34725.cpp:55:6:void Adafruit_TCS34725::write8(uint8_t, uint32_t)	48	static
+../Core/Src/Adafruit_TCS34725.cpp:67:9:uint8_t Adafruit_TCS34725::read8(uint8_t)	40	static
+../Core/Src/Adafruit_TCS34725.cpp:80:10:uint16_t Adafruit_TCS34725::read16(uint8_t)	40	static
+../Core/Src/Adafruit_TCS34725.cpp:97:6:void Adafruit_TCS34725::enable()	16	static
+../Core/Src/Adafruit_TCS34725.cpp:132:6:void Adafruit_TCS34725::disable()	24	static
+../Core/Src/Adafruit_TCS34725.cpp:146:1:Adafruit_TCS34725::Adafruit_TCS34725(tcs34725IntegrationTime_t, tcs34725Gain_t)	16	static
+../Core/Src/Adafruit_TCS34725.cpp:159:6:bool Adafruit_TCS34725::begin(uint8_t)	16	static
+../Core/Src/Adafruit_TCS34725.cpp:174:6:bool Adafruit_TCS34725::begin(uint8_t, I2C_HandleTypeDef*)	24	static
+../Core/Src/Adafruit_TCS34725.cpp:185:6:bool Adafruit_TCS34725::begin()	16	static
+../Core/Src/Adafruit_TCS34725.cpp:196:6:bool Adafruit_TCS34725::init()	24	static
+../Core/Src/Adafruit_TCS34725.cpp:221:6:void Adafruit_TCS34725::setIntegrationTime(tcs34725IntegrationTime_t)	16	static
+../Core/Src/Adafruit_TCS34725.cpp:237:6:void Adafruit_TCS34725::setGain(tcs34725Gain_t)	16	static
+../Core/Src/Adafruit_TCS34725.cpp:259:6:void Adafruit_TCS34725::getRawData(uint16_t*, uint16_t*, uint16_t*, uint16_t*)	24	static
+../Core/Src/Adafruit_TCS34725.cpp:305:6:void Adafruit_TCS34725::getRawDataOneShot(uint16_t*, uint16_t*, uint16_t*, uint16_t*)	32	static
+../Core/Src/Adafruit_TCS34725.cpp:324:6:void Adafruit_TCS34725::getRGB(float*, float*, float*)	48	static
+../Core/Src/Adafruit_TCS34725.cpp:350:10:uint16_t Adafruit_TCS34725::calculateColorTemperature(uint16_t, uint16_t, uint16_t)	64	static
+../Core/Src/Adafruit_TCS34725.cpp:397:10:uint16_t Adafruit_TCS34725::calculateColorTemperature_dn40(uint16_t, uint16_t, uint16_t, uint16_t)	40	static
+../Core/Src/Adafruit_TCS34725.cpp:487:10:uint16_t Adafruit_TCS34725::calculateLux(uint16_t, uint16_t, uint16_t)	32	static
+../Core/Src/Adafruit_TCS34725.cpp:502:6:void Adafruit_TCS34725::setInterrupt(bool)	24	static
+../Core/Src/Adafruit_TCS34725.cpp:515:6:void Adafruit_TCS34725::clearInterrupt()	32	static
+../Core/Src/Adafruit_TCS34725.cpp:529:6:void Adafruit_TCS34725::setIntLimits(uint16_t, uint16_t)	16	static
